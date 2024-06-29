@@ -1,0 +1,56 @@
+### Home
+GET http://localhost:3000/
+
+### Get All Todos => Query Parameter -> status
+GET http://localhost:3000/todos?status=IN%20PROGRESS
+
+### Get All Todos => Query Parameter -> priority
+GET http://localhost:3000/todos?priority=HIGH
+
+### Get All Todos => Query Parameter -> status & priority
+GET http://localhost:3000/todos?priority=HIGH&status=IN%20PROGRESS
+
+
+### Get All Todos => Query Parameter -> search_q
+GET http://localhost:3000/todos/?search_q=the
+
+
+### Get All Todos => Query Parameters -> status & category
+GET http://localhost:3000/todos/?category=WORK&status=DONE
+
+### Get All Todos => Query Parameters -> category
+GET http://localhost:3000/todos/?category=HOME
+
+### Get All Todos => Query Parameters -> priority & category
+GET http://localhost:3000/todos/?category=LEARNING&priority=HIGH
+
+
+### Get Single Todo
+GET http://localhost:3000/todos/4/
+
+###  Get All Todos with Query Parameter date
+GET http://localhost:3000/agenda/?date=2021-1-12
+
+### Update todo on Post Request
+POST http://localhost:3000/todos/
+Content-Type: application/json
+
+{
+ "id": 67,
+ "todo": "Finalize event theme",
+ "priority": "LOW",
+ "status": "TO DO",
+ "category": "HOME",
+ "dueDate": "2021-02-22"
+}
+
+
+### Update Todo
+PUT http://localhost:3000/todos/4/
+Content-Type: application/json
+
+{ "dueDate": "2021-01-10" }
+
+
+### Delete Todo
+DELETE http://localhost:3000/todos/2/

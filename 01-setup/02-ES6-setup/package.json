@@ -1,0 +1,18 @@
+{
+  "name": "02-es6-setup",
+  "version": "1.0.0",
+  "description": "* Install NodeJS\r * Create Node Environment `npm init -y`  \r * create `index.js`\r * Write some code in `index.js`\r * Start the Application : `node index.js`\r * Install nodemon : `npm install -D nodemon`\r * Start the Application : `nodemon index.js`\r * write the scripts\r     - To avoid typing `nodemon index.js` every time, you can modify the scripts section of your package.json file. \r     ```json\r       \"scripts\": {\r       \"start\": \"node index.js\",\r       \"dev\": \"nodemon index.js\"\r       },\r     ```\r * Start the Application : `npm run dev`",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}

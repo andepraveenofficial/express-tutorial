@@ -1,0 +1,19 @@
+{
+  "name": "01-setup",
+  "version": "1.0.0",
+  "description": "* Install NodeJS\r * Create Node Environment `npm init -y`  \r * Install nodemon : `npm install -D nodemon`\r * Start the Application : `nodemon index.js`\r * write the scripts\r     - To avoid typing `nodemon index.js` every time, you can modify the scripts section of your package.json file. \r     ```json\r       \"scripts\": {\r       \"start\": \"node index.js\",\r       \"dev\": \"nodemon index.js\"\r       },\r     ```\r * Start the Application : `npm run dev`",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,35 @@
+
+###  Home
+GET http://localhost:3000/
+
+
+### Registration
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "Navya",
+  "name": "Adam Richard",
+  "password": "praveen123",
+  "gender": "male",
+  "location": "Detroit"
+}
+
+### Login
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567"
+}
+
+### Update Password
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+  "username": "navya",
+  "oldPassword": "praveen123",
+  "newPassword": "praveen456"
+}

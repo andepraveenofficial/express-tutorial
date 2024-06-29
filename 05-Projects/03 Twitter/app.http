@@ -1,0 +1,71 @@
+
+### Home
+GET http://localhost:3000/
+
+
+### Registration
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "praveen1234",
+  "password": "praveen1234",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+
+### Login
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+
+### Latest Tweets
+GET http://localhost:3000/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODEwODUzfQ.ajfljVLPjiyNHOqyVsYL-GOWGPIOvD2Q4CvDc7bGeXQ
+
+### User Following People
+GET http://localhost:3000/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODEwODUzfQ.ajfljVLPjiyNHOqyVsYL-GOWGPIOvD2Q4CvDc7bGeXQ
+
+
+### User Followers
+GET http://localhost:3000/user/followers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODEwODUzfQ.ajfljVLPjiyNHOqyVsYL-GOWGPIOvD2Q4CvDc7bGeXQ
+
+### Get Single Tweet
+GET http://localhost:3000/tweets/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODEwODUzfQ.ajfljVLPjiyNHOqyVsYL-GOWGPIOvD2Q4CvDc7bGeXQ
+
+
+### Get Tweet Liked Users
+GET http://localhost:3000/tweets/2/likes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODEwODUzfQ.ajfljVLPjiyNHOqyVsYL-GOWGPIOvD2Q4CvDc7bGeXQ
+
+
+### Get Tweet Replies
+GET http://localhost:3000/tweets/2/replies/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODc0OTgzfQ.-hPfeArx84EyOZeD9bqE-mVuhhWfDYQ1jBXB3ZAxDrQ
+
+### Get User All Tweets
+GET http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODc0OTgzfQ.-hPfeArx84EyOZeD9bqE-mVuhhWfDYQ1jBXB3ZAxDrQ
+
+### Create Tweet
+POST http://localhost:3000/user/tweets/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODc0OTgzfQ.-hPfeArx84EyOZeD9bqE-mVuhhWfDYQ1jBXB3ZAxDrQ
+
+{
+   "tweet": "The Mornings..."
+}
+
+
+### Delete Single Tweet
+DELETE http://localhost:3000/tweets/3/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODc0OTgzfQ.-hPfeArx84EyOZeD9bqE-mVuhhWfDYQ1jBXB3ZAxDrQ
+
+
