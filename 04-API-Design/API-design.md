@@ -17,11 +17,17 @@
 ## REST APIs
 * REST APIs play an important role in ensuring smooth communication between the client and the server.
 * You can think of the client as the front end and the server as the back end.
-* Communication between the client (frontend) and the server (backend) isn't usually super direct. So we use an interface called an Application Programming Interface (or API) to act as an intermediary between the client and the server.
-
+* Communication between the client (frontend) and the server (backend) isn't usually super direct. So we use an interface called an __Application Programming Interface (or API)__ to act as an intermediary between the client and the server.
+* For Example, OLA, and UBER use Google API Maps to provide their services.
 
 ### REST 
-REST stands for Representational State Transfer. 
+* REST stands for Representational State Transfer. 
+* Using Rest Principles improves application in various aspects like Scalability, Reliability...etc
+
+### REST API Principles
+* Providing uniqueId to each resource
+* using standard methods like GET, POST, PUT and DELETE
+* Accept and Response with JSON.
 
 </details>
 

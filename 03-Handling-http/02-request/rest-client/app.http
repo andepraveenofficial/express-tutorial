@@ -1,0 +1,8 @@
+### 00 Test
+GET http://localhost:5000/
+
+### 01 Dynamic Parameter
+GET http://localhost:5000/users/123
+
+### Query Parameters
+GET http://localhost:5000/users/?offset=2&limit=5

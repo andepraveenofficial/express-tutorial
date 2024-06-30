@@ -122,7 +122,5 @@ app.post("/login", async (request, response) => {
 });
 
 
-
-
 /* -----> DEfault Exporting <----- */
 module.exports = app;

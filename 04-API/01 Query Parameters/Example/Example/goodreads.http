@@ -1,8 +1,0 @@
-
-### Home
-GET http://localhost:3004/
-
-
-### Query Parameters
-GET http://localhost:3004/books/?offset=2&limit=5&order=ASC&order_by=book_id
-

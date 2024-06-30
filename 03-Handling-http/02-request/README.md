@@ -1,4 +1,4 @@
-# HTTP Response Methods
+# HTTP Request Methods
 
 ### Installation
 * `npm install` 

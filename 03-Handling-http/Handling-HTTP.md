@@ -48,7 +48,8 @@ app.get("/file", (request, response) => {
 <summary>Request Methods</summary>
 
 ## Request Methods
-
+* Dynamic Parameter
+* Query Parameter
 
 </details>
 
