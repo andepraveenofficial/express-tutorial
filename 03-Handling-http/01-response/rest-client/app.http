@@ -1,0 +1,12 @@
+### 00 Test
+GET http://localhost:5000/
+
+### 01 send -> send some data
+GET http://localhost:5000/data
+
+### 02 sendStatus -> send status code
+GET http://localhost:5000/status
+
+### 03 sendFile -> sending a File
+GET http://localhost:5000/file
+

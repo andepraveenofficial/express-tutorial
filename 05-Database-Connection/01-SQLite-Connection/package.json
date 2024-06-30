@@ -1,0 +1,21 @@
+{
+  "name": "01-sqlite-connection",
+  "version": "1.0.0",
+  "description": "* Install NodeJS\r * create `index.js`\r * Write some code in `index.js`\r * Start the Application : `node index.js`",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}

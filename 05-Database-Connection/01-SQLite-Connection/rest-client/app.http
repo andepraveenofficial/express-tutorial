@@ -1,0 +1,15 @@
+### 00 Test
+GET http://localhost:5000/
+
+### 01 Add User
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Ande Praveen",
+    "age": 28
+}
+
+
+### 02 Get Users Data
+GET http://localhost:5000/users

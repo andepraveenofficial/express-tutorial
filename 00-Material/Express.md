@@ -23,11 +23,10 @@
 * Works with the database
 
 ### Server-Side web Framework
-The Server-Side web Framework take care of all the above requirements.
+The Server-Side web Framework take care of HTTP requests.
 * Express(NodeJS) is a server-side web Framework.
 * Express JS is a free and open-source server-side web Application Framework for NodeJS.
-
-`npm install express --save`
+* `npm install express`
 </details>
 
 ---
