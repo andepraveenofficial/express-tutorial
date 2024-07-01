@@ -1,0 +1,24 @@
+### 00 Test
+GET http://localhost:5000/
+
+### 01 Registration -> Add User
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "firstname": "Praveen",
+    "lastname": "Ande",
+    "email": "praveen4@example.com",
+    "password": "mySecreteCode1"
+}
+
+
+### 02 Login
+POST http://localhost:5000/users/login
+Content-Type: application/json
+
+{
+  "email": "praveen4@example.com",
+  "password": "mySecreteCode1"
+
+}
