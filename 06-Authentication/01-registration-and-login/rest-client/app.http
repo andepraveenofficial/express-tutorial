@@ -8,9 +8,10 @@ Content-Type: application/json
 {
     "firstname": "Praveen",
     "lastname": "Ande",
-    "email": "praveen4@example.com",
+    "email": "praveen6@example.com",
     "password": "mySecreteCode1"
 }
+
 
 
 ### 02 Login
@@ -18,7 +19,17 @@ POST http://localhost:5000/users/login
 Content-Type: application/json
 
 {
-  "email": "praveen4@example.com",
+  "email": "praveen6@example.com",
   "password": "mySecreteCode1"
 
 }
+
+
+### 03 Home -> Verify jwtToken
+GET http://localhost:5000/home
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW42QGV4YW1wbGUuY29tIiwiaWF0IjoxNzE5OTg4MzQ0LCJleHAiOjE3MTk5OTE5NDR9.8pDhSPYfxtY9m0eatXsMLbvfRlgyKVzuJoTKpj5eLHs
+
+
+### 04 About -> verify jwtToken with middleware
+GET http://localhost:5000/about
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXZlZW42QGV4YW1wbGUuY29tIiwiaWF0IjoxNzE5OTg4MzQ0LCJleHAiOjE3MTk5OTE5NDR9.8pDhSPYfxtY9m0eatXsMLbvfRlgyKVzuJoTKpj5eLHs
