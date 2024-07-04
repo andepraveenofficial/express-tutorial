@@ -1,0 +1,26 @@
+### 00 Test
+GET http://localhost:5000/
+
+### 01 API -> filter users by id
+GET http://localhost:5000/api/users/id/1
+
+
+### 02 API -> filter users by first name
+GET http://localhost:5000/api/users/first_name/Francisca
+
+### 03 API -> filter users by last name
+GET http://localhost:5000/api/users/last_name/Skamell
+
+### 04 API -> filter users by email
+GET http://localhost:5000/api/users/email/fskamell0@constantcontact.com
+
+
+### 05 API -> filter users by gender
+GET http://localhost:5000/api/users/gender/Female
+
+### 06 API -> filter users by state
+GET http://localhost:5000/api/users/state/California
+
+
+### 07 API -> Pagination
+GET http://localhost:5000/api/users?offset=50&limit=10
