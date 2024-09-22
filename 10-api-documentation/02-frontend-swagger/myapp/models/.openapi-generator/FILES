@@ -1,0 +1,12 @@
+.openapi-generator-ignore
+apis/DefaultApi.ts
+apis/index.ts
+index.ts
+models/ErrorResponse400.ts
+models/ErrorResponse401.ts
+models/ErrorResponse403.ts
+models/ErrorResponse404.ts
+models/ErrorResponse500.ts
+models/TodoResponse.ts
+models/index.ts
+runtime.ts

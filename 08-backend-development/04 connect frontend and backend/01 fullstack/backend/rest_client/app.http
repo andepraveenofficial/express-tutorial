@@ -1,0 +1,6 @@
+### 00 Home
+GET http://localhost:5000/
+
+### 01 Jokes
+GET http://localhost:5000/api/jokes
+
